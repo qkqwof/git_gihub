@@ -45,3 +45,9 @@ git remote add origin 레포주소
 git add .
 git commit -m "초기 커밋"
 git push origin master
+
+
+# 특정 파일을 git 추적 목록에서 제외하고 싶다면, .gitignore 파일에 목록 등록
+# 이미 add, commit 되어버린 파일을 추적목록에서 제외하고 싶다면
+git rm -r --cached 파일명
+
